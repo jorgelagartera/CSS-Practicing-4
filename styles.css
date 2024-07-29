@@ -10,8 +10,8 @@
 body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
-    background-color: #DEF9C4;
-    color:  #468585;
+    background-color: #D3DEDC;
+    color:  #92A9BD;
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -20,8 +20,8 @@ body {
 
 /* Header styles */
 header {
-    background-color: #50B498;
-    color: #DEF9C4;
+    background-color: #7C99AC;
+    color: #D3DEDC;
     padding: 20px 0;
     text-align: center;
     width: 100%;
@@ -36,7 +36,7 @@ header:before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, #DEF9C4, #50B498);
+    background: linear-gradient(135deg, #D3DEDC, #7C99AC);
     opacity: 0.8;
     z-index: -1;
 }
@@ -65,15 +65,16 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #DEF9C4;
+    color: #D3DEDC;
     text-decoration: none;
     font-size: 1.2em;
     transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #9CDBA6;
+    color: #FFEFEF;
 }
+
 
 /* Main section styles */
 main {
@@ -88,7 +89,7 @@ main {
 
 section {
     padding: 40px;
-    background-color: #9cdba685;
+    background-color: #FFEFEF85;
     border-radius: 20px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     text-align: center;
@@ -105,7 +106,7 @@ section:hover {
 section h2 {
     margin-bottom: 15px;
     font-size: 1.5em;
-    color: #468585;
+    color: #92A9BD;
 }
 
 /* Footer styles */
@@ -113,8 +114,8 @@ footer {
     width: 100%;
     text-align: center;
     padding: 20px 0;
-    background-color: #50B498;
-    color: #DEF9C4;
+    background-color: #7C99AC;
+    color: #D3DEDC;
     position: fixed;
     bottom: 0;
     left: 0;
